@@ -20,17 +20,18 @@ export const awardsIntro = "Recognition for academic and professional achievemen
 
 export const awards: Array<ActivityItemType> = [
   {
-    name: 'Outstanding Teacher Award',
-    description: '',
-    date: '2024',
-    location: 'SCLS, Shanghai',
+    name: '2nd Runner-up in HKSSF Inter-school Swimming Competition',
+    description: '200m breaststroke',
+    date: '2022',
+    location: 'Hong Kong',
   },
   {
-    name: 'Zhui Ying Award',
-    description: '',
-    date: '2023',
-    location: 'Qingpu, Shanghai',
+    name: 'Potential Student Leaders Silver award',
+    description: '“Reach the Top” Southern District Outstanding Students Award 2021',
+    date: '2021',
+    location: 'Hong Kong',
   },
+
 ]
 
 // Research & Projects

@@ -14,10 +14,10 @@ export type EducationItemType = {
   export const educationList: Array<EducationItemType> = [
     {
       school: 'The Chinese University of Hong Kong',
-      major: 'Financial Technology',
+      major: 'BEng in Financial Technology',
       logo: 'college',
       start: '2024',
-      end: '-'
+      end: ' '
     },
     {
       school: 'HKUGAC',
