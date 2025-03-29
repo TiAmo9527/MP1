@@ -12,12 +12,17 @@ import { projectHeadLine, projectIntro, projects, blogHeadLine, blogIntro, techI
 import { awards, awardsHeadLine, awardsIntro, activities, activitiesHeadLine, activitiesIntro } from '@/config/projects'
 import IconCloud from "@/components/ui/icon-cloud"
 import { Award, Briefcase, Heart } from 'lucide-react'
+import styles from "./page.module.css";
+import Head from "next/head";
 
 export default async function Home() {
   let blogList = (await getAllBlogs()).slice(0, 4)
 
   return (
     <>
+      <Head>
+      <link rel="icon" href="/favicon-32x32.png" />
+      </Head>
       <Container className="mt-9">
         {/* personal info */}
         <div className="mb-10 grid grid-cols-1 md:grid-cols-2">
