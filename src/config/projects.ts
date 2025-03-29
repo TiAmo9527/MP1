@@ -51,6 +51,12 @@ export const projects: Array<ProjectItemType> = [
     link: { href: 'https://www.instagram.com/cuhk.sis/', label: 'CUHK SIS' },
     tags: ['Venture Capital', 'Talk', 'collaboration']
   },
+  {
+    name: 'Consultant',
+    description: 'CCN sem project - Preface',
+    link: { href: 'https://www.preface.ai/', label: 'Preface' },
+    tags: ['AI', 'Consulting', 'development']
+  },
 ]
 
 // Hobbies & Volunteer
@@ -75,7 +81,7 @@ export const activities: Array<ActivityItemType> = [
     link: 'https://example.com/ai-ethics',
   },
   {
-    name: 'Code Review Session',
+    name: 'Swimming',
     description:
       'Helping students improve their coding skills through peer code review and best practices sharing.',
     date: '2024-03-15',

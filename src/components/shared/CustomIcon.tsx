@@ -15,6 +15,8 @@ import {
   LinkedinLogo,
   Television,
   TiktokLogo,
+  Binoculars,
+  CurrencyBtc,
 } from '@phosphor-icons/react'
 
 export function CustomIcon({
@@ -53,6 +55,10 @@ export function CustomIcon({
       return <TiktokLogo size={size} weight="duotone" />
     case 'bilibili':
       return <Television size={size} weight="duotone" />
+    case 'btc':
+      return <CurrencyBtc size={size} weight="duotone" />
+    case 'binoculars':
+      return <Binoculars size={size} weight="duotone" />
     default:
       return null
   }

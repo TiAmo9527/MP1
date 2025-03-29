@@ -19,7 +19,7 @@ export const careerList: Array<CareerItemType> = [
     {
       company: 'Financial Technology Society, CUHK',
       title: 'President',
-      logo: 'coin',
+      logo: 'btc',
       start: '2024',
       end: 'Present'
     },
