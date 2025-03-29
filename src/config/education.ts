@@ -17,7 +17,7 @@ export type EducationItemType = {
       major: 'BEng in Financial Technology',
       logo: 'college',
       start: '2024',
-      end: ' '
+      end: 'Present'
     },
     {
       school: 'HKUGAC',

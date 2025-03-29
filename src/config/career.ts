@@ -12,7 +12,7 @@ export const careerList: Array<CareerItemType> = [
     {
       company: 'Cambridge Consulting Network',
       title: 'Student Consultant',
-      logo: 'paper',
+      logo: 'coffee',
       start: '2024',
       end: 'Present'
     },
