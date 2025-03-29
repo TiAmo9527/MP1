@@ -35,33 +35,21 @@ export const awards: Array<ActivityItemType> = [
 ]
 
 // Research & Projects
-export const projectHeadLine = "Research & Projects"
+export const projectHeadLine = "Projects & Events"
 export const projectIntro = "Academic research and technical projects I've worked on."
 
 export const projects: Array<ProjectItemType> = [
   {
-    name: 'Student Final Project Portfolio',
-    description: 'Static website portfolio',
-    link: { href: 'scls-cs.com', label: 'GitHub Cards' },
-    tags: ['Website', 'Next.js', 'TailwindCSS', 'DaisyUI', 'Portfolio']
+    name: 'Co-organiser',
+    description: 'HashTech 2025 @ CUHK - a Fintech Talent Summit',
+    link: { href: 'https://www.0xu.club/', label: '0xu.club' },
+    tags: ['Fintech', 'Event', 'collaboration']
   },
   {
-    name: 'Seeking DNA',
-    description: '2022 SCLS Hackathon',
-    link: { href: 'https://scls-cs.gitbook.io/scls-apcs-lab/lab5-dna', label: 'Hackathon' },
-    tags: ['Hackathon', 'Java']
-  },
-  {
-    name: 'Texas Holdem Poker Judge',
-    description: '2024 SCLS Hackathon',
-    link: { href: 'https://onecompiler.com/challenges/42yf4n5yn/scls-hackathon', label: 'Hackathon' },
-    tags: ['Hackathon']
-  },
-  {
-    name: 'AI Camp Course Development',
-    description: 'Developed a comprehensive AI curriculum for high school students, incorporating real-world projects and startup concepts.',
-    link: { href: 'https://scls-cs.gitbook.io/ai-camp', label: 'View Course' },
-    tags: ['Education', 'AI']
+    name: 'Co-host',
+    description: 'AI and the Venture Capital Industry - CUHK.SIS',
+    link: { href: 'https://www.instagram.com/cuhk.sis/', label: 'CUHK SIS' },
+    tags: ['Venture Capital', 'Talk', 'collaboration']
   },
 ]
 

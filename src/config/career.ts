@@ -17,6 +17,13 @@ export const careerList: Array<CareerItemType> = [
       end: 'Present'
     },
     {
+      company: 'Financial Technology Society, CUHK',
+      title: 'President',
+      logo: 'coin',
+      start: '2024',
+      end: 'Present'
+    },
+    {
       company: 'Guangzhou Meijian Investment Consulting Service Co. Ltd',
       title: 'Project Officer',
       logo: 'bank',
