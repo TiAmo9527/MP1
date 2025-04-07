@@ -43,19 +43,19 @@ export const projects: Array<ProjectItemType> = [
     name: 'Co-organiser',
     description: 'HashTech 2025 @ CUHK - a Fintech Talent Summit',
     link: { href: 'https://www.0xu.club/', label: '0xu.club' },
-    tags: ['Fintech', 'Event', 'collaboration']
+    tags: ['Fintech', 'Event', 'Collaboration']
   },
   {
     name: 'Co-host',
     description: 'AI and the Venture Capital Industry - CUHK.SIS',
     link: { href: 'https://www.instagram.com/cuhk.sis/', label: 'CUHK SIS' },
-    tags: ['Venture Capital', 'Talk', 'collaboration']
+    tags: ['Venture Capital', 'Talk', 'Collaboration']
   },
   {
     name: 'Consultant',
     description: 'CCN sem project - Preface',
     link: { href: 'https://www.preface.ai/', label: 'Preface' },
-    tags: ['AI', 'Consulting', 'development']
+    tags: ['AI', 'Consulting', 'Development']
   },
 ]
 
@@ -65,26 +65,32 @@ export const activitiesIntro = "Personal interests and community contributions."
 
 export const activities: Array<ActivityItemType> = [
   {
-    name: 'Python Workshop',
+    name: 'MUN Workshop - HKUGAC',
     description:
-      'Teaching basic Python programming concepts to beginners. Covering variables, control flow, and functions.',
-    date: '2024-02-24',
-    location: 'Shanghai',
-    link: 'https://example.com/python-workshop',
+      'Teaching basic international relations concepts to beginners through workshops hosted in an assembly session in school with over 300 participants.',
+    date: '2024-02',
+    location: 'Hong Kong',
   },
   {
-    name: 'AI Ethics Discussion',
+    name: 'DGSMUN',
     description:
-      'A group discussion about the ethical implications of AI development and its impact on society.',
-    date: '2024-03-01',
-    location: 'Shanghai',
-    link: 'https://example.com/ai-ethics',
+      'Participated in the Diocesan Girls’ School Model United Nations as deleagtion of Italy in DISEC.',
+    date: '2024-07-08',
+    location: 'Hong Kong',
   },
   {
-    name: 'Swimming',
+    name: 'LPCMUN',
     description:
-      'Helping students improve their coding skills through peer code review and best practices sharing.',
-    date: '2024-03-15',
-    location: 'Shanghai',
+      'Participated in the Li Po Chun United World College Model United Nations as deleagtion of Russia in ECOSOC.',
+    date: '2023-10',
+    location: 'Hong Kong',
+  },
+  {
+    name: 'Swimming Coach @ ATC Swim',
+    description:
+      'Helping young students improve their swimming skills by interactive training.',
+    date: '2023-2024',
+    location: 'Hong Kong',
+    link: 'https://www.atcswim.hk/',
   },
 ]
