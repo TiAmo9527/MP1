@@ -38,9 +38,19 @@ export const socialLinks: Array<SocialLinkType> = [
     href: 'https://www.instagram.com/_.aleungx._/',
   },
   {
+    name: 'Twitter',
+    icon: 'x',
+    href: 'https://x.com/0xLeungChing',
+  },
+  {
     name: 'Linkedin',
     icon: 'linkedin',
-    href: 'www.linkedin.com/in/alex-man-fung-leung-355450256',
+    href: 'https://www.linkedin.com/in/alex-man-fung-leung-355450256',
+  },
+  {
+    name: 'Github',
+    icon: 'github',
+    href: 'https://github.com/TiAmo9527',
   },
 ]
 

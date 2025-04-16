@@ -9,7 +9,14 @@ export type CareerItemType = {
   }
   
 export const careerList: Array<CareerItemType> = [
-    {
+  {
+    company: '0xU blockchain club',
+    title: 'Builder',
+    logo: 'btc',
+    start: '2025',
+    end: 'Present'
+  },
+  {
       company: 'Cambridge Consulting Network',
       title: 'Student Consultant',
       logo: 'coffee',
@@ -19,7 +26,7 @@ export const careerList: Array<CareerItemType> = [
     {
       company: 'Financial Technology Society, CUHK',
       title: 'President',
-      logo: 'btc',
+      logo: 'college',
       start: '2024',
       end: 'Present'
     },
